@@ -11,5 +11,11 @@
     "simulation"
   ],
   "author": "Emil Bay <github@tixz.dk>",
-  "license": "ISC"
+  "license": "ISC",
+
+  "bugs": "http://github.com/tixz/sim-timer.js/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tixz/sim-timer.js.git"
+  }
 }
