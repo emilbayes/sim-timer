@@ -1,0 +1,26 @@
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+*.idea
+
+pids
+logs
+results
+build
+dump
+
+.sass-cache
+node_modules
+
+#OS X specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
