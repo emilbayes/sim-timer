@@ -1,6 +1,6 @@
 {
   "name": "sim-timer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Discrete timer for simulations",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   ],
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
-
   "bugs": "http://github.com/tixz/sim-timer.js/issues",
   "repository": {
     "type": "git",
