@@ -1,0 +1,15 @@
+{
+  "name": "sim-timer",
+  "version": "0.0.1",
+  "description": "Discrete timer for simulations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timer",
+    "simulation"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC"
+}
