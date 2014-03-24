@@ -1,6 +1,6 @@
 {
   "name": "sim-timer",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Discrete timer for simulations",
   "main": "index.js",
   "scripts": {
