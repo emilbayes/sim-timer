@@ -48,7 +48,7 @@ Timer.prototype.setInterval = function Timer$setInterval(delay, callback) {
     var id = Object.keys(this.intervals).length;
 
     this.intervals[id] = {
-        offset: this.time % delay,
+        offset: this.time,
         delay: delay,
         callback: callback
     };
