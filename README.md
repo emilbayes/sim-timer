@@ -28,8 +28,8 @@ Returns the new time.
 Add a new interval to the timer. Opposed the the default Javascript
 setInterval, this takes the delay first and then the callback.
 
-`delay` time delay between calls.  
-`callback` function to be called at appropriate tick.  
+`delay` time delay between calls.
+`callback` function to be called at appropriate tick. First argument passed is a counter of invokations for this interval ("local" time)
 
 Returns `id` of the interval. This is used the clear the interval.
 

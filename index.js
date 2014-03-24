@@ -29,7 +29,7 @@ Timer.prototype.tick = function Timer$tick() {
     Object.keys(this.intervals).forEach(function(id) {
         i = this.intervals[id];
         if((this.time - i.offset) % i.delay === 0)
-            i.callback.call();
+            i.callback.call(null, (this.time - i.offset) / i.delay);
     }.bind(this));
 
     return this.time;
