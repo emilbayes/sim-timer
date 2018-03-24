@@ -33,7 +33,7 @@ setInterval, this takes the delay first and then the callback.
 
 Returns `id` of the interval. This is used the clear the interval.
 
-#### #`t.clearInterval(id);`
+##### `t.clearInterval(id);`
 
 Removes the interval from the timer.
 
